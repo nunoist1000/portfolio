@@ -1,41 +1,51 @@
-About Vicky:
-Vicky is a seasoned professional with expertise in AI, Data Science, Blockchain, and Cloud technologies. Holding an undergraduate degree in Computer Science from the University of Techville (2010), Vicky is committed to delivering innovative solutions and offers valuable resources at cognitiveclass.ai.
+About Quinten:
+Quinten is a seasoned professional with expertise in cybersecurity, threat research,
+federal security compliance, and software development. Holding a Master of Science in 
+Criminal Justice/Forensic Psychology from Liberty University, and a Bachelor of Arts
+in Criminology from the University of South Carolina, Quinten is committed to delivering
+innovative solutions and offers valuable insights in cybersecurity.
 
 Work Experience:
-Data Scientist at IBM (2015-2019); Software Developer at IBM (2010-2015)
+Federal Staff Consultant at A-lign (May 2023 - Present),
+OSINT Analyst/Developer at Overt Operator (Jan 2023 - Present),
+Technical Service Technician at Patterson Dental (May 2021 - May 2023),
+Risk Security Analyst at PwC (January 2020 - May 2021),
+Pharmaceuticals Investigator at Nephron Pharmaceuticals (March 2019 – October 2019),
+Police Officer at Batesburg-Leesville Police Department (January 2018 – March 2019),
+Military Police in the United States Army (March 2013 – June 2015)
 
 Career Goal:
-Vicky's career goal is to leverage their expertise in AI and emerging technologies to drive meaningful innovation and create solutions that positively impact businesses and society.
+Quinten's career goal is to leverage his expertise in cybersecurity and emerging technologies 
+to drive meaningful innovation and create solutions that positively impact businesses and society.,
 
 Skills: 
-AI, Data Science, Blockchain, Cloud, Python
+Cybersecurity, Threat Research, OSINT, Investigations, Federal Security Compliance, Software Development, Python, Agile, Jira, Trello, Streamlit, Github, Git, CockroachDB, MongoDB, APIs
 
 Certification:
-IBM Applied AI Professional Certificate (2023)
+ITIL v4 Foundation – Information Technology Infrastructure Library
+Security+ (Expired April 2023)
 
 Achievements:
-Spearheaded AI projects at IBM, resulting in a 30% increase in user engagement.
-Utilized IBM's watsonx service to help over 1000 companies from various domains automate their HR processes, from hiring to onboarding, contributing to a 100% positive feedback rate from companies.
+Authored a comprehensive threat report on APT37, a sophisticated nation-state hacking group.
+Developed a Python-based informational hub tracking ransomware groups, tactics, and threats.
 
 Contact:
-LinkedIn: https://www.linkedin.com/in/vicky-tck
-Phone: 123-456-789
-Location: Toronto, Ontario
+LinkedIn: https://www.linkedin.com/in/qepting
+Github: https://github.com/qepting91
+Email: qepting91@gmail.com 
 
 Strengths and Advantages:
-Vicky's strengths lie in a profound passion for technology, innovative problem-solving, and client-centric solutions.
+Quinten's strengths lie in a profound passion for technology and problem solving. A true jack of all trades, that is willing to take on any problem no matter how tough.
 
 Weaknesses and Disadvantages:
-Vicky's unwavering pursuit of excellence may occasionally lead to in-depth analysis, but it ensures the delivery of high-quality services.
+Quinten does not have the professional experience that some employers are after, but makes up with the constant drive to deliver value through projects within Overt Operator. Developing internal tools to automate and optimize taskings.
 
-Interests and Hobbies:
-Vicky's passion for technology extends into leisure hours, where they delve into the cutting-edge realm of GenAI, continuously pushing the boundaries of what can be achieved in various projects. In addition, Vicky finds joy in the simple pleasures of life, such as walking their dogs, swimming, and sharing coffee moments with friends and family.
+Hobbies and Interests
+Outside of my professional pursuits, I am deeply involved in fostering the growth and expansion of Overt Operator, where I contribute my insights and skills to enhance our collective capabilities. My passion for technology also finds an outlet in my dedication to a full-stack development bootcamp, where I'm honing my abilities in web development. When not immersed in technological endeavors, I cherish the time spent with my four children, celebrating life's milestones such as welcoming our youngest in October 2023. My leisure moments are often filled with the joy of family activities, and when time allows, I find relaxation in the simplicity of life's everyday pleasures.
 
 Portfolio:
-Explore Vicky's portfolio of innovative projects at cognitiveclass.ai, showcasing expertise and tailored solutions. This website also serves as a showcase for some of Vicky's remarkable projects. Constructed using generative AI and Python, the website aims to inspire visitors with innovative ideas on seamlessly integrating generative AI into their own portfolio websites. Feel free to explore and ignite your creativity!
+Explore Quinten's portfolio of innovative projects at https://palmetto.notion.site/The-Epting-Maker-s-Studio-0ea2942922a24ab3b7cd9a78774bd3d1?pvs=4, showcasing expertise and tailored solutions. This website also serves as a repository of some of my projects. Constructed using Python, databases, API calls, (soon to be more HTML, CSS, and JS), the website aims to inspire innovation!
 
-Availability:
-Vicky is actively seeking new opportunities and is ready to start immediately.
 
 References:
 References are available upon request.

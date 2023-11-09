@@ -8,14 +8,25 @@ def local_css(file_name):
         
 local_css("style/style.css")
 
-st.sidebar.markdown(info['Photo'],unsafe_allow_html=True)
 
-st.title("📝 Resume")
+st.title("👔Resume")
 
-st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1yztCc5SYT4cZu02kO9WcWg8Kp9O06U0y/view?usp=sharing)")
+st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1fVJ1Y9GhKAFDmf4hY6STTACHHVzT9MY8/view?usp=sharing)")
 
-with open("images/resume.pdf","rb") as f:
-      base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-      pdf_display = F'<iframe src="data:application/pdf;base64,{base64_pdf}" width="1000mm" height="1000mm" type="application/pdf"></iframe>'
-      st.markdown(pdf_display, unsafe_allow_html=True)
+with open('resume.md', 'r') as markdown_file:
+    resume_markdown = markdown_file.read()
+
+st.markdown(resume_markdown, unsafe_allow_html=True)
+
+st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1fVJ1Y9GhKAFDmf4hY6STTACHHVzT9MY8/view?usp=sharing)")
+
+with open('images/Dev.pdf', 'rb') as pdf_file:
+    pdf_bytes = pdf_file.read()
+    st.download_button(label="Download Resume as PDF",
+                       data=pdf_bytes,
+                       file_name="My_Resume.pdf",
+                       mime='application/octet-stream')
+
   
+
+

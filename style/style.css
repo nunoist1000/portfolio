@@ -1,78 +1,85 @@
-/* Change the sidebar color*/
+/* Change the sidebar color */
 [data-testid=stSidebar] {
-  background-image: linear-gradient(#000395,#FFD4DD);
+  background-image: linear-gradient(#003366, #000000); /* Updated colors for gradient */
 }
 
-/* Style hyperlinks*/
-a{
+.stApp {
+  background: linear-gradient(180deg, #000000 0%, #003366 100%);
+  color: #E8E9EB;
+}
+
+/* Style hyperlinks */
+a {
   display: block; 
-  color:#2e9aff !important;
+  color: #FFA500 !important; /* Updated to Orange for hyperlinks */
   font-weight: bold;
 }
 
-p{
-  color: white
+p {
+  color: #E8E9EB; /* Keeping this color as it provides good contrast on dark backgrounds */
 }
 
 .st-ck {
-  caret-color: black;
+  caret-color: #FFA500; /* Updated to Orange for the caret */
 }
 
+/* Update Streamlit component colors to a subtle black with opacity */
 .st-bh, .st-c2, .st-c3, .st-c4, .st-c5, .st-c6, .st-c7, .st-c8, .st-c9, .st-ca, .st-cb, .st-b8, .st-cc, .st-cd, .st-ce, .st-cf, .st-cg, .st-ch, .st-ci, .st-cj, .st-ae, .st-af, .st-ag, .st-ck, .st-ai, .st-aj, .st-c1, .st-cl, .st-cm, .st-cn {
-  color: black;
+  color: rgba(0, 0, 0, 0.05); /* Changed to black with reduced opacity for subtlety */
 }
 
 /* Style the contact form */
 input[type=message], input[type=email], input[type=text], textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px;
-    margin-bottom: 16px; 
-    resize: vertical
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #003366; /* Dark Blue border */
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: vertical;
+  background-color: #000000; /* Black background for inputs */
+  color: #FFA500; /* Orange text color for contrast */
 }
 
 /* Style the submit button with a specific background color etc */
 button[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #003366; /* Dark Blue background */
+  color: #FFA500; /* Orange text */
   padding: 12px 20px;
-  border: none;
+  border: none; /* Removing the border for a cleaner look */
   border-radius: 4px;
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker shade */
 button[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #002244; /* A darker shade of Dark Blue for hover effect */
 }
+
 
 /* Hide Streamlit Branding */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
 header {visibility: hidden;}
 
-
 /* Design Hyperlink */
-a:link , a:visited{
-color: blue;
-text-decoration: underline;
+a:link, a:visited {
+  color: #FFA500; /* Orange for links */
+  text-decoration: underline;
 }
 
-a:hover,  a:active {
-color: red;
-text-decoration: underline;
+a:hover, a:active {
+  color: #FF0000; /* Red for hover and active states */
+  text-decoration: underline;
 }
 
 .footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: #001d6c;
-color: white;
-text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #003366; /* Dark Blue, updated for the footer */
+  color: #FFA500; /* Orange text for readability */
+  text-align: center;
 }
-
