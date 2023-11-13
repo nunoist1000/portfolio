@@ -11,8 +11,6 @@ local_css("style/style.css")
 
 st.title("👔Resume")
 
-st.write("[Click here if it's blocked by your browser](https://drive.google.com/file/d/1fVJ1Y9GhKAFDmf4hY6STTACHHVzT9MY8/view?usp=sharing)")
-
 with open('resume.md', 'r') as markdown_file:
     resume_markdown = markdown_file.read()
 
