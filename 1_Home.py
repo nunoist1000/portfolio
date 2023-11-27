@@ -50,7 +50,7 @@ def ask_bot(input_text):
 
 # get the user's input by calling the get_text function
 def get_text():
-    input_text = st.text_input("After providing OpenAI API Key on the sidebar, you can send your questions and hit Enter to know more about me from my AI agent, Buddy!", key="input")
+    input_text = st.text_input("You can send your questions and hit Enter to know more about me from my AI agent, Buddy!", key="input")
     return input_text
 
 #st.markdown("Chat With Me Now")
@@ -111,13 +111,13 @@ with st.container():
     st.subheader('⚒️ Skills')
     col1, col2, col3, col4 = st.columns([1, 1, 1, 1])
     with col1:
-        st_lottie(python_lottie, height=70,width=70, key="python", speed=2)
+        st_lottie(python_lottie, height=70,width=70, key="python", speed=0)
     with col2:
-        st_lottie(git_lottie, height=70,width=70, key="git", speed=4)
+        st_lottie(git_lottie, height=70,width=70, key="git", speed=0)
     with col3:
-        st_lottie(github_lottie,height=70,width=70, key="github", speed=4)
+        st_lottie(github_lottie,height=70,width=70, key="github", speed=0)
     with col4:
-        st_lottie(js_lottie,height=70,width=70, key="javascript", speed=2)
+        st_lottie(js_lottie,height=70,width=70, key="javascript", speed=0)
   
     
     with col1:
