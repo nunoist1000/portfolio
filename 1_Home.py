@@ -117,7 +117,7 @@ with st.container():
     with col3:
         st_lottie(github_lottie,height=70,width=70, key="github", speed=0)
     with col4:
-        st_lottie(js_lottie,height=70,width=70, key="javascript", speed=10)
+        st_lottie(js_lottie,height=70,width=70, key="javascript", speed=1)
   
     
     with col1:
