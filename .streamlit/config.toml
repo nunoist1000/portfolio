@@ -15,4 +15,4 @@ textColor = '#FFFFFF'
 font = "monospace" 
 
 [server]
-enableStaticServing = true
+enableStaticServing = false
