@@ -13,7 +13,7 @@ st.set_page_config(page_title='Landing Zone' ,layout="wide",page_icon='📝')
 
 # -----------------  chatbot  ----------------- #
 # Set up the OpenAI key
-openai_api_key = st.secrets(OPENAI_API_KEY)
+openai_api_key = st.secrets['OPENAI_API_KEY']
 openai.api_key = (openai_api_key)
 
 notion = Image.open("images/notion.jpg")
